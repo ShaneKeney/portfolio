@@ -1,5 +1,6 @@
 // import ItemIsotope from "../src/components/ItemIsotope";
 import dynamic from "next/dynamic";
+import ProIntro from "../src/component.lib/ProIntro";
 import TypingAnimation from "../src/components/TypingAnimation";
 import Layout from "../src/layout/Layout";
 const ItemIsotope = dynamic(() => import("../src/components/ItemIsotope"), {
@@ -19,10 +20,7 @@ const IndexCreative = () => {
         <div className="centrize full-width">
           <div className="vertical-center">
             <div className="started-content">
-              <h1 className="h-title">
-                Hello, {`I’m`} <strong>Alejandro Abeyta</strong>, UX/UI Designer
-                and Front-end Developer Based in San Francisco.
-              </h1>
+              <ProIntro />
               <div className="h-subtitles" style={{ opacity: "1" }}>
                 <TypingAnimation extraClassName={"h-subtitle"} />
                 <span className="typed-subtitle" />

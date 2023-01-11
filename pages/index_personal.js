@@ -1,3 +1,4 @@
+import ProIntro from "../src/component.lib/ProIntro";
 import TypingAnimation from "../src/components/TypingAnimation";
 import Layout from "../src/layout/Layout";
 const IndexPersonal = () => {
@@ -17,11 +18,7 @@ const IndexPersonal = () => {
                 className="logo"
                 style={{ backgroundImage: "url(images/man.jpg)" }}
               />
-              <h1 className="h-title">
-                Hello, I’m <strong>Alejandro Abeyta</strong>, UX/UI Designer and{" "}
-                <br />
-                Front-end Developer Based in San Francisco.
-              </h1>
+              <ProIntro />
               <TypingAnimation extraClassName={"typed-subtitle"} />
               <span className="typed-subtitle" />
             </div>

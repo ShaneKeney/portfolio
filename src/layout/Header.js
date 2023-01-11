@@ -6,7 +6,7 @@ const Menu = () => (
     <div className="logo hover-masks-logo">
       <a href="#">
         <span className="mask-lnk">
-          Alejandro <strong>Abeyta</strong>
+          Shane <strong>Keney</strong>
         </span>
         <span className="mask-lnk mask-lnk-hover">
           Download <strong>CV</strong>

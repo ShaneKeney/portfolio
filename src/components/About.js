@@ -32,7 +32,7 @@ const About = () => {
                 <strong>Phone:</strong> +1 256 254 84 56
               </li>
               <li>
-                <strong>E-mail:</strong> alejandroa@gmail.com
+                <strong>E-mail:</strong> sckeney@gmail.com
               </li>
             </ul>
           </div>

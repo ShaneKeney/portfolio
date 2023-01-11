@@ -1,6 +1,8 @@
 import { useEffect } from "react";
 import TypingAnimation from "../src/components/TypingAnimation";
 import Layout from "../src/layout/Layout";
+import ProIntro from "../src/component.lib/ProIntro";
+
 const IndexVideo = () => {
   useEffect(() => {
     let { jarallax, jarallaxVideo } = require("jarallax");
@@ -31,11 +33,7 @@ const IndexVideo = () => {
         <div className="centrize full-width">
           <div className="vertical-center">
             <div className="started-content">
-              <h1 className="h-title">
-                Hello, I’m <strong>Alejandro Abeyta</strong>, UX/UI Designer and{" "}
-                <br />
-                Front-end Developer Based in San Francisco.
-              </h1>
+              <ProIntro />
               <TypingAnimation extraClassName={"typed-subtitle"} />
               <span className="typed-subtitle" />
             </div>

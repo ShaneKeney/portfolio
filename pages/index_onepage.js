@@ -1,5 +1,6 @@
 import dynamic from "next/dynamic";
 import { useEffect } from "react";
+import ProIntro from "../src/component.lib/ProIntro";
 import { CodingSkills } from "../src/components/Skills";
 import Testimonials from "../src/components/Testimonials";
 import TypingAnimation from "../src/components/TypingAnimation";
@@ -28,7 +29,7 @@ const IndexOnePage = () => {
           <div className="logo hover-masks-logo">
             <a href="#">
               <span className="mask-lnk">
-                Alejandro <strong>Abeyta</strong>
+                Shane <strong>Keney</strong>
               </span>
               <span className="mask-lnk mask-lnk-hover">
                 Download <strong>CV</strong>
@@ -74,11 +75,7 @@ const IndexOnePage = () => {
           <div className="centrize full-width">
             <div className="vertical-center">
               <div className="started-content">
-                <h1 className="h-title">
-                  Hello, I’m <strong>Alejandro Abeyta</strong>, UX/UI Designer
-                  and <br />
-                  Front-end Developer Based in San Francisco.
-                </h1>
+                <ProIntro />
                 <TypingAnimation extraClassName={"typed-subtitle"} />
                 <span className="typed-subtitle" />
               </div>
@@ -126,7 +123,7 @@ const IndexOnePage = () => {
                     <strong>Phone:</strong> +1 256 254 84 56
                   </li>
                   <li>
-                    <strong>E-mail:</strong> alejandroa@gmail.com
+                    <strong>E-mail:</strong> sckeney@gmail.com
                   </li>
                 </ul>
               </div>
@@ -578,7 +575,7 @@ const IndexOnePage = () => {
                     <img src="images/team1.jpg" alt="" />
                   </div>
                   <div className="desc">
-                    <div className="name">Alejandro Abeyta</div>
+                    <div className="name">Shane Keney</div>
                     <div className="category">Web Developer</div>
                     <div className="soc">
                       <a

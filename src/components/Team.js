@@ -14,7 +14,7 @@ const Team = () => {
                 <img src="images/team1.jpg" alt="" />
               </div>
               <div className="desc">
-                <div className="name">Alejandro Abeyta</div>
+                <div className="name">Shane Keney</div>
                 <div className="category">Web Developer</div>
                 <div className="soc">
                   <a

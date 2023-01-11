@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="copy">
-        <p>E: alejandroa@gmail.com</p>
+        <p>E: sckeney@gmail.com</p>
         <p>T: +1 (234) 567 80 98</p>
       </div>
       <div className="soc-box">
