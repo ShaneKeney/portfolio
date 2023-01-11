@@ -14,7 +14,7 @@ const AnimationText = ({ typingData, extraClass }) => {
               "You <strong>name it</strong>",
               "I'll <strong>build it</strong>",
               "If we <strong>build it</strong>",
-              "They <strong>will come</strong>",
+              "They <strong>will come...</strong>",
             ], // Strings to display
         typeSpeed: 100,
         backSpeed: 100,
