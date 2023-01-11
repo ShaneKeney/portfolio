@@ -7,12 +7,6 @@ const ItemIsotope = dynamic(() => import("../src/components/ItemIsotope"), {
 });
 
 const WorksCreative = () => {
-  const typingData = [
-    "<p>I code cool <strong>websites</strong></p>",
-    "<p>I develop <strong>mobile apps</strong></p>",
-    "<p>I love <strong>wordpress</strong></p>",
-  ];
-
   return (
     <Layout>
       <CreativePageBanner pageName={"works"} extraClass="typed-subtitle" />
