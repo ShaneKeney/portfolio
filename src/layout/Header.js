@@ -5,11 +5,11 @@ const Menu = () => (
   <Fragment>
     <div className="logo hover-masks-logo">
       <a href="#">
-        <span className="mask-lnk">
-          Shane <strong>Keney</strong>
-        </span>
         <span className="mask-lnk mask-lnk-hover">
           Download <strong>CV</strong>
+        </span>
+        <span className="mask-lnk">
+          Shane <strong>Keney</strong>
         </span>
       </a>
     </div>
@@ -25,7 +25,7 @@ const Menu = () => (
                   <span className="mask-lnk mask-lnk-hover">Home</span>
                 </a>
               </Link>
-              <ul className="sub-menu">
+              {/* <ul className="sub-menu">
                 <li className="menu-item">
                   <Link href="/">
                     <a>
@@ -36,36 +36,7 @@ const Menu = () => (
                     </a>
                   </Link>
                 </li>
-                <li className="menu-item">
-                  <Link href="/index_creative">
-                    <a>
-                      <span className="mask-lnk">Home Creative</span>
-                      <span className="mask-lnk mask-lnk-hover">
-                        Home Creative
-                      </span>
-                    </a>
-                  </Link>
-                </li>
-                <li className="menu-item">
-                  <Link href="/index_slider">
-                    <a>
-                      <span className="mask-lnk">Home Slider</span>
-                      <span className="mask-lnk mask-lnk-hover">
-                        Home Slider
-                      </span>
-                    </a>
-                  </Link>
-                </li>
-                <li className="menu-item">
-                  <Link href="/index_personal">
-                    <a>
-                      <span className="mask-lnk">Home Personal</span>
-                      <span className="mask-lnk mask-lnk-hover">
-                        Home Personal
-                      </span>
-                    </a>
-                  </Link>
-                </li>
+                // Keeping for potential future use
                 <li className="menu-item">
                   <Link href="/index_onepage">
                     <a target="blank">
@@ -76,16 +47,7 @@ const Menu = () => (
                     </a>
                   </Link>
                 </li>
-                <li className="menu-item">
-                  <Link href="/index_image">
-                    <a>
-                      <span className="mask-lnk">Home Image</span>
-                      <span className="mask-lnk mask-lnk-hover">
-                        Home Image
-                      </span>
-                    </a>
-                  </Link>
-                </li>
+                // Keeping for potential future use
                 <li className="menu-item">
                   <Link href="/index_video">
                     <a>
@@ -96,7 +58,7 @@ const Menu = () => (
                     </a>
                   </Link>
                 </li>
-              </ul>
+              </ul> */}
             </li>
             <li className="menu-item menu-item-has-children">
               <Link href="/resume">
@@ -105,38 +67,6 @@ const Menu = () => (
                   <span className="mask-lnk mask-lnk-hover">Resume</span>
                 </a>
               </Link>
-              <ul className="sub-menu">
-                <li className="menu-item">
-                  <Link href="/resume">
-                    <a>
-                      <span className="mask-lnk">Resume Default</span>
-                      <span className="mask-lnk mask-lnk-hover">
-                        Resume Default
-                      </span>
-                    </a>
-                  </Link>
-                </li>
-                <li className="menu-item">
-                  <Link href="/resume_image">
-                    <a>
-                      <span className="mask-lnk">Resume Image</span>
-                      <span className="mask-lnk mask-lnk-hover">
-                        Resume Image
-                      </span>
-                    </a>
-                  </Link>
-                </li>
-                <li className="menu-item">
-                  <Link href="/resume_creative">
-                    <a>
-                      <span className="mask-lnk">Resume Creative</span>
-                      <span className="mask-lnk mask-lnk-hover">
-                        Resume Creative
-                      </span>
-                    </a>
-                  </Link>
-                </li>
-              </ul>
             </li>
             <li className="menu-item menu-item-has-children">
               <Link href="/works">
@@ -145,88 +75,6 @@ const Menu = () => (
                   <span className="mask-lnk mask-lnk-hover">Works</span>
                 </a>
               </Link>
-              <ul className="sub-menu">
-                <li className="menu-item">
-                  <Link href="/works">
-                    <a>
-                      <span className="mask-lnk">Works Default</span>
-                      <span className="mask-lnk mask-lnk-hover">
-                        Works Default
-                      </span>
-                    </a>
-                  </Link>
-                </li>
-                <li className="menu-item">
-                  <Link href="/works_creative">
-                    <a>
-                      <span className="mask-lnk">Works Creative</span>
-                      <span className="mask-lnk mask-lnk-hover">
-                        Works Creative
-                      </span>
-                    </a>
-                  </Link>
-                </li>
-                <li className="menu-item">
-                  <Link href="/work_single">
-                    <a>
-                      <span className="mask-lnk">Work Single</span>
-                      <span className="mask-lnk mask-lnk-hover">
-                        Work Single
-                      </span>
-                    </a>
-                  </Link>
-                </li>
-                <li className="menu-item">
-                  <Link href="/work_single_image">
-                    <a>
-                      <span className="mask-lnk">Work Single Image</span>
-                      <span className="mask-lnk mask-lnk-hover">
-                        Work Single Image
-                      </span>
-                    </a>
-                  </Link>
-                </li>
-                <li className="menu-item">
-                  <Link href="/work_single_creative">
-                    <a>
-                      <span className="mask-lnk">Work Single Creative</span>
-                      <span className="mask-lnk mask-lnk-hover">
-                        Work Single Creative
-                      </span>
-                    </a>
-                  </Link>
-                </li>
-              </ul>
-            </li>
-            <li className="menu-item menu-item-has-children">
-              <Link href="/blog">
-                <a>
-                  <span className="mask-lnk">Blog</span>
-                  <span className="mask-lnk mask-lnk-hover">Blog</span>
-                </a>
-              </Link>
-              <ul className="sub-menu">
-                <li className="menu-item">
-                  <Link href="/blog">
-                    <a>
-                      <span className="mask-lnk">Blog Posts</span>
-                      <span className="mask-lnk mask-lnk-hover">
-                        Blog Posts
-                      </span>
-                    </a>
-                  </Link>
-                </li>
-                <li className="menu-item">
-                  <Link href="/blog_post">
-                    <a>
-                      <span className="mask-lnk">Single Post</span>
-                      <span className="mask-lnk mask-lnk-hover">
-                        Single Post
-                      </span>
-                    </a>
-                  </Link>
-                </li>
-              </ul>
             </li>
             <li className="menu-item menu-item-has-children">
               <Link href="/contacts">
@@ -235,48 +83,6 @@ const Menu = () => (
                   <span className="mask-lnk mask-lnk-hover">Contact</span>
                 </a>
               </Link>
-              <ul className="sub-menu">
-                <li className="menu-item">
-                  <Link href="/contacts">
-                    <a>
-                      <span className="mask-lnk">Contact Default</span>
-                      <span className="mask-lnk mask-lnk-hover">
-                        Contact Default
-                      </span>
-                    </a>
-                  </Link>
-                </li>
-                <li className="menu-item">
-                  <Link href="/contacts_map">
-                    <a>
-                      <span className="mask-lnk">Contact Map</span>
-                      <span className="mask-lnk mask-lnk-hover">
-                        Contact Map
-                      </span>
-                    </a>
-                  </Link>
-                </li>
-                <li className="menu-item">
-                  <Link href="/contacts_image">
-                    <a>
-                      <span className="mask-lnk">Contact Image</span>
-                      <span className="mask-lnk mask-lnk-hover">
-                        Contact Image
-                      </span>
-                    </a>
-                  </Link>
-                </li>
-                <li className="menu-item">
-                  <Link href="/contacts_creative">
-                    <a>
-                      <span className="mask-lnk">Contact Creative</span>
-                      <span className="mask-lnk mask-lnk-hover">
-                        Contact Creative
-                      </span>
-                    </a>
-                  </Link>
-                </li>
-              </ul>
             </li>
           </ul>
         </div>
