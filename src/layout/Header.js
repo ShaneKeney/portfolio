@@ -5,10 +5,10 @@ const Menu = () => (
   <Fragment>
     <div className="logo hover-masks-logo">
       <a href="#">
-        <span className="mask-lnk mask-lnk-hover">
+        <span className="mask-lnk">
           Download <strong>CV</strong>
         </span>
-        <span className="mask-lnk">
+        <span className="mask-lnk mask-lnk-hover">
           Shane <strong>Keney</strong>
         </span>
       </a>

@@ -177,7 +177,8 @@
 }
 
 .header .top-menu ul li.menu-item-has-children > a .mask-lnk:after {
-  content: "\f078";
+  /* Used when arround button is needed in header dropdown menu */
+  /* content: "\f078"; */
   margin-left: 5px;
   position: relative;
   top: 0;
