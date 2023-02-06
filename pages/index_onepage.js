@@ -108,7 +108,7 @@ const IndexOnePage = () => {
               <div className="info-list">
                 <ul>
                   <li>
-                    <strong>Age:</strong> 24
+                    <strong>Age:</strong> 29
                   </li>
                   <li>
                     <strong>Residence:</strong> USA
@@ -117,10 +117,10 @@ const IndexOnePage = () => {
                     <strong>Freelance:</strong> Available
                   </li>
                   <li>
-                    <strong>Address:</strong> San Francisco
+                    <strong>Address:</strong> Wilmington, NC
                   </li>
                   <li>
-                    <strong>Phone:</strong> +1 256 254 84 56
+                    <strong>Phone:</strong> +1 860 815 7873
                   </li>
                   <li>
                     <strong>E-mail:</strong> sckeney@gmail.com
