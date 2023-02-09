@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import Typed from "typed.js";
-const TypingAnimation = ({ typingData, extraClassName }) => {
+const TypingAnimation = ({ typingData = "", extraClassName }) => {
   // Create Ref element.
   const el = useRef(null);
 

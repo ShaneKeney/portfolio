@@ -7,7 +7,7 @@ import { cursor, stickyNav } from "../utils";
 import Footer from "./Footer";
 import Header from "./Header";
 import Preloader from "./Preloader";
-const Layout = ({ children, noHeader }) => {
+const Layout = ({ children, noHeader = false }) => {
   useEffect(() => {
     cursor();
   }, []);
