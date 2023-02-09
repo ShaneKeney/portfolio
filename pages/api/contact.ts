@@ -3,6 +3,6 @@ import { NextApiRequest, NextApiResponse } from "next";
 import sgMail from "@sendgrid/mail";
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
-  console.log("test");
+  console.log(req.body);
   res.status(200).json({ name: "John Doe" });
 }

@@ -1,4 +1,4 @@
-import { Fragment, useEffect, useState } from "react";
+import { Fragment, useCallback, useEffect, useState } from "react";
 import axios from "axios";
 
 const clearForm = () => {
@@ -21,7 +21,7 @@ const clearErrorIfPresent = () => {
 const ContactSection = () => {
   const [shouldClearForm, setShouldClearForm] = useState(false);
 
-  const handleContactSend = async (e) => {
+  const handleContactSend = useCallback(async (e) => {
     clearErrorIfPresent();
     e.preventDefault();
     const name = document.getElementById("name") as HTMLInputElement;
@@ -44,7 +44,7 @@ const ContactSection = () => {
       const alertFail = document.querySelector(".alert-fail");
       alertFail.classList.add("active");
     }
-  };
+  }, []);
 
   // Auto clear after 3 seconds
   useEffect(() => {
