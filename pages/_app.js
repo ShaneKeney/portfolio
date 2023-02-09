@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <Fragment>
       <Head>
-        <title>Cvio - Resume/CV React NextJS Template</title>
+        <title>Resume/CV React NextJS Portfolio</title>
 
         <link
           href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic"
@@ -22,7 +22,6 @@ function MyApp({ Component, pageProps }) {
         <link rel="stylesheet" href="css/fontawesome.css" />
         <link rel="stylesheet" href="css/brands.css" />
         <link rel="stylesheet" href="css/solid.css" />
-        <link rel="shortcut icon" href="images/favicons/favicon.ico" />
       </Head>
       <Component {...pageProps} />
     </Fragment>
