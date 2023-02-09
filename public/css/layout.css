@@ -2999,10 +2999,28 @@
   display: none;
 }
 
+.section.contacts .alert-fail {
+  display: none;
+}
+
+.section.contacts .alert-success.active {
+  display: inline;
+}
+
+.section.contacts .alert-fail.active {
+  display: inline;
+}
+
 .section.contacts .alert-success p {
   margin: 0;
   font-size: 16px;
-  color: #eee;
+  color: #4bffa5;
+}
+
+.section.contacts .alert-fail p {
+  margin: 0;
+  font-size: 16px;
+  color: #dc2626;
 }
 
 .map {
