@@ -48,6 +48,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
         .json({ success: true, message: "Email sent successfully" });
     })
     .catch((error) => {
+      console.log(process.env.SENDGRID_API_KEY);
       console.log(JSON.stringify(error));
       return res.status(500).json({
         success: false,
