@@ -2,8 +2,6 @@
 import { NextApiRequest, NextApiResponse } from "next";
 import sgMail from "@sendgrid/mail";
 
-sgMail.setApiKey(process.env.SENDGRID_API_KEY || "");
-
 interface SendGridEmail {
   to: string;
   from: string;
@@ -19,6 +17,9 @@ interface DyanamicTemplateData {
 }
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
+  // Set API Key
+  sgMail.setApiKey(process.env.SENDGRID_API_KEY || "");
+
   const { name, email, message } = req.body;
 
   if (!email || !validateEmail(email))
@@ -48,12 +49,10 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
         .json({ success: true, message: "Email sent successfully" });
     })
     .catch((error) => {
-      console.log(JSON.stringify(error));
       return res.status(500).json({
         success: false,
         errorCode: "INTERNAL_SERVER_ERROR",
         message: "Error sending email to Shane Keney.  Please try again later.",
-        toRemove: `${process.env.SENDGRID_API_KEY}`,
       });
     });
 }
