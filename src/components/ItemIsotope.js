@@ -2,7 +2,6 @@ import Isotope from "isotope-layout";
 import Image from "next/image";
 import Link from "next/link";
 import { Fragment, useEffect, useRef, useState } from "react";
-import LogoBanner from "../component.lib/LogoBanner";
 import { parallax } from "../utils";
 const ItemIsotope = () => {
   useEffect(() => {
