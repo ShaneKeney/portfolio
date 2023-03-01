@@ -9,10 +9,7 @@ const About = () => {
         {/* desc */}
         <div className="desc">
           <p>
-            Hello! I’m Daniel Curry. Web designer from USA, California, San
-            Francisco. I have rich experience in web site design and building,
-            also I am good at wordpress. I love to talk with you about our
-            unique.
+            {`Hey there! My name is Shane Keney and I'm a Fullstack Software Engineer based out of the beautiful coastal city of Wilmington, NC. As a Mobile Development specialist with a focus on React Native via Expo, I love helping businesses and individuals turn their software ideas into reality. With my expertise and experience, I'm committed to delivering top-notch solutions that meet your unique needs and exceed your expectations. So whether you're looking to build a new app from scratch or improve an existing one, I'm here to help! Let's connect and make your software dreams a reality.`}
           </p>
           <div className="info-list">
             <ul>

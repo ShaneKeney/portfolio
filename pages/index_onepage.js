@@ -100,10 +100,16 @@ const IndexOnePage = () => {
             {/* desc */}
             <div className="desc">
               <p>
-                Hello! I’m Daniel Curry. Web designer from USA, California, San
-                Francisco. I have rich experience in web site design and
-                building, also I am good at wordpress. I love to talk with you
-                about our unique.
+                {`Hey there! My name is Shane Keney and I'm a Fullstack Software
+                Engineer based out of the beautiful coastal city of Wilmington,
+                NC. As a Mobile Development specialist with a focus on React
+                Native via Expo, I love helping businesses and individuals turn
+                their software ideas into reality. With my expertise and
+                experience, I'm committed to delivering top-notch solutions that
+                meet your unique needs and exceed your expectations. So whether
+                you're looking to build a new app from scratch or improve an
+                existing one, I'm here to help! Let's connect and make your
+                software dreams a reality.`}
               </p>
               <div className="info-list">
                 <ul>
@@ -558,86 +564,6 @@ const IndexOnePage = () => {
               </div>
             </div>
             <div className="clear" />
-          </div>
-        </div>
-        {/* Section Team */}
-        <div className="section team" id="section-team">
-          <div className="content">
-            {/* title */}
-            <div className="title">
-              <div className="title_inner">Our Team</div>
-            </div>
-            {/* team items */}
-            <div className="team-items">
-              <div className="team-col">
-                <div className="team-item content-box">
-                  <div className="image">
-                    <img src="images/team1.jpg" alt="" />
-                  </div>
-                  <div className="desc">
-                    <div className="name">Shane Keney</div>
-                    <div className="category">Web Developer</div>
-                    <div className="soc">
-                      <a
-                        target="_blank"
-                        rel="noreferrer"
-                        href="https://www.pinterest.com/"
-                      >
-                        <span className="icon fab fa-pinterest" />
-                      </a>
-                      <a
-                        target="_blank"
-                        rel="noreferrer"
-                        href="https://www.instagram.com/"
-                      >
-                        <span className="icon fab fa-instagram" />
-                      </a>
-                      <a
-                        target="_blank"
-                        rel="noreferrer"
-                        href="https://dribbble.com/"
-                      >
-                        <span className="icon fab fa-dribbble" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="team-col">
-                <div className="team-item content-box">
-                  <div className="image">
-                    <img src="images/team2.jpg" alt="" />
-                  </div>
-                  <div className="desc">
-                    <div className="name">Peter Green</div>
-                    <div className="category">Back-end Developer</div>
-                    <div className="soc">
-                      <a
-                        target="_blank"
-                        rel="noreferrer"
-                        href="https://www.pinterest.com/"
-                      >
-                        <span className="icon fab fa-pinterest" />
-                      </a>
-                      <a
-                        target="_blank"
-                        rel="noreferrer"
-                        href="https://www.instagram.com/"
-                      >
-                        <span className="icon fab fa-instagram" />
-                      </a>
-                      <a
-                        target="_blank"
-                        rel="noreferrer"
-                        href="https://dribbble.com/"
-                      >
-                        <span className="icon fab fa-dribbble" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
         {/* Section Testimonials */}

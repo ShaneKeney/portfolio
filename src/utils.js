@@ -22,7 +22,9 @@ export const cursor = () => {
 export const parallax = () => {
   const simpleParallax = require("simple-parallax-js");
   var s_parallax = document.getElementsByClassName("wp-post-image");
-  new simpleParallax(s_parallax);
+  new simpleParallax(s_parallax, {
+    scale: 1,
+  });
 };
 
 // Header

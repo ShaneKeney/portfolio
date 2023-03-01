@@ -12,7 +12,6 @@ import {
   KnowledgeSkills,
   LanguagesSkills,
 } from "../src/components/Skills";
-import Team from "../src/components/Team";
 import Testimonials from "../src/components/Testimonials";
 import Layout from "../src/layout/Layout";
 const ResumeImage = () => {
@@ -41,8 +40,6 @@ const ResumeImage = () => {
       <KnowledgeSkills />
       {/* Section Interests */}
       <Interests />
-      {/* Section Team */}
-      <Team />
       {/* Section Testimonials */}
       <Testimonials />
       {/* Section Clients */}
