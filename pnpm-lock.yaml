@@ -14,7 +14,6 @@ specifiers:
   parallax-js: ^3.1.0
   react: 18.2.0
   react-dom: 18.2.0
-  react-reveal: ^1.2.2
   simple-parallax-js: ^5.6.2
   swiper: ^8.3.2
   typed.js: ^2.0.12
@@ -30,7 +29,6 @@ dependencies:
   parallax-js: 3.1.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
-  react-reveal: 1.2.2_react@18.2.0
   simple-parallax-js: 5.6.2
   swiper: 8.4.5
   typed.js: 2.0.12
@@ -1873,6 +1871,7 @@ packages:
       loose-envify: 1.4.0
       object-assign: 4.1.1
       react-is: 16.13.1
+    dev: true
 
   /proxy-from-env/1.1.0:
     resolution: {integrity: sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==}
@@ -1905,15 +1904,7 @@ packages:
 
   /react-is/16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
-
-  /react-reveal/1.2.2_react@18.2.0:
-    resolution: {integrity: sha512-JCv3fAoU6Z+Lcd8U48bwzm4pMZ79qsedSXYwpwt6lJNtj/v5nKJYZZbw3yhaQPPgYePo3Y0NOCoYOq/jcsisuw==}
-    peerDependencies:
-      react: ^15.3.0 || ^16.0.0
-    dependencies:
-      prop-types: 15.8.1
-      react: 18.2.0
-    dev: false
+    dev: true
 
   /react/18.2.0:
     resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
