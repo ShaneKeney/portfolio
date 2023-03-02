@@ -148,11 +148,14 @@ const ItemIsotope = () => {
                 <div className="category">Content</div>
                 <h4>Hand holding pyramid painting</h4>
                 <p>Test</p>
-                <Image
-                  src={"/images/man_r.jpg"}
-                  alt={"test"}
-                  width={200}
-                  height={200}
+                <div
+                  className="image"
+                  style={{
+                    backgroundImage:
+                      "url(images/promotional/spikeball-app-banner.png)",
+                  }}
+                  width={100}
+                  height={100}
                 />
                 <p>
                   Now there is more fashion. There is no so-called trends. Now
