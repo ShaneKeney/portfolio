@@ -9,7 +9,7 @@ const TypingAnimation = ({ typingData = "", extraClassName }) => {
       strings: typingData
         ? typingData
         : [
-            '"Anything <strong>worth doing</strong>"',
+            '"Anything in life <strong>worth doing</strong>"',
             '"Is worth <strong>overdoing</strong>"',
             '"If we <strong>build it</strong>"',
             '"[They] <strong>will come...</strong>"',
